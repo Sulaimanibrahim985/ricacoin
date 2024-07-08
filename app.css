@@ -1,0 +1,213 @@
+::root {
+    GREEN-COLOR: #F800E216;
+    LIGHT-UI: #2B2B2B;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;  
+    background-color:  rgb(5, 15, 3);
+    
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #2B2B2B;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: solid 2px rgb(5, 190, 60);
+    border-radius: 20px 20px 0 0;
+    box-sizing: border-box;
+    padding: 5px;
+   
+}
+
+.pagetitle {
+    text-align: center;
+    color: rgb(5, 190, 60);
+}
+
+ .titlediv {
+    width: 10%;
+    height: 80px;
+    background-color: rgb(5, 15, 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(5, 190, 60);
+    font-weight: bold;
+    font-size: 9px;
+    padding: 2px;
+    border-radius: 5px 5px 5px 17px;
+    border-top: solid 1px rgb(5, 190, 60);    
+}
+
+
+
+.profilediv {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(5, 190, 60);
+}
+
+.picdiv {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #A87638;
+}
+/*
+.profilename {
+    color: rgb(5, 190, 60);
+}
+
+*/
+
+#coinsamount {
+    font-size: 37px;
+    font-weight: bold;
+    word-spacing: 2px;
+    color: #A87638;
+}
+
+#earning {
+    margin-bottom: 0;
+    font-weight: bold;
+    color: rgb(5, 190, 60); 
+    font-size: 18px;
+}
+
+#coin {
+    width: 230px;
+}
+
+.coin {
+    width: 220px;
+    height: 220px;
+    border-radius: 220px;
+    background-color: #a87638;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.coinlayer {
+    width: 190px;
+    height: 190px;
+    border-radius: 200px;
+    display: inherit;
+    align-items: inherit;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    border: solid 0.8px rgba(0, 0, 0, 0.8);
+    background-color: rgb(225, 181,48);
+}
+
+#coinsymbol {
+    font-size: 95px;
+    font-weight: bold;
+    font-family: Serif;
+    color: #A87638;
+}
+
+.cointitle {
+    color: #a87638;
+    font-weight: Bold;
+    font-size: 28px;
+}
+
+.farmingbtn {
+    width: 50%;
+    height: 55px;
+    background-color: rgb(5, 190, 60);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 5px 1.5px rgba(255, 255, 255, 0.1), -1px -1px 5px 1.5px rgba(255, 255, 255, 0.1);
+}
+
+.footerlinkdiv {
+    width: 20%;
+    height: 60px;
+    text-align: center;
+}
+
+.footerlinkdiv > a {
+    color: rgb(5, 190, 60);
+    text-decoration: none;
+    line-height: 60px;
+}
+
+.footerlinkdiv > a:visited, .footerlinkdiv > a:active  {
+    color: rgb(5, 190, 60);
+}
+
+
+/* TASK PAGE STYLING */
+
+.title {
+    color: rgb(5, 190, 60);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.taskscont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50% auto 0 auto;
+    width: 80%;
+    border-radius: 7px 7px 0 0;
+}
+
+.taskscont > div {
+    background-color: rgb(5, 190, 60);
+    width: 100%;
+    height: 55px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 4px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 17px;
+}
+
+.reward {
+    color: gold;
+    margin-top: 2px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.rewardpagenav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: inherit;
+    height: 100px;
+}
